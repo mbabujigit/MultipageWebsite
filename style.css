@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  
+  .dashboard-title {
+    color: #333;
+  }
+  
+  .dashboard-sections {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section-item {
+    margin-bottom: 10px;
+  }
+
+  /* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  /* Class selector */
+  .dashboard-title {
+    color: #333 !important;
+    font-size: 24px;
+  }
+  
+  .dashboard-sections {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .section-item {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  /* ID selector */
+  #main-title {
+    text-align: center;
+  }
+  
+  #statistics-item {
+    font-weight: bold !important;
+    color: #007BFF !important;
+  }
